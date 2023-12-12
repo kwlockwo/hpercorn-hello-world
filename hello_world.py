@@ -1,3 +1,6 @@
+config = Config()
+config.from_toml("./hyper_corn.toml")
+
 async def app(scope, receive, send):
     if scope["type"] != "http":
         raise Exception("Only the HTTP protocol is supported")
