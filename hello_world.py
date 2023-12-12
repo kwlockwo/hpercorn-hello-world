@@ -1,7 +1,7 @@
 from hypercorn.config import Config
 
 config = Config()
-config.from_toml("./hyper_corn.toml")
+config.from_toml("./hyper_config.toml")
 
 async def app(scope, receive, send):
     if scope["type"] != "http":
