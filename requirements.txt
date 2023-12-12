@@ -1,0 +1,11 @@
+-i https://pypi.org/simple
+exceptiongroup==1.2.0; python_version >= '3.7'
+h11==0.14.0; python_version >= '3.7'
+h2==4.1.0; python_full_version >= '3.6.1'
+hpack==4.0.0; python_full_version >= '3.6.1'
+hypercorn==0.15.0; python_version >= '3.7'
+hyperframe==6.0.1; python_full_version >= '3.6.1'
+priority==2.0.0; python_full_version >= '3.6.1'
+taskgroup==0.0.0a4; python_version < '3.11'
+tomli==2.0.1; python_version < '3.11'
+wsproto==1.2.0; python_full_version >= '3.7.0'
