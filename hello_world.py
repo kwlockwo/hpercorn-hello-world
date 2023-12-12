@@ -1,3 +1,5 @@
+from hypercorn.config import Config
+
 config = Config()
 config.from_toml("./hyper_corn.toml")
 
